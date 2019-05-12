@@ -53,3 +53,71 @@ array CustomCombine(array $input);
 
 List of all of the probability of the combine from custom values. (Favorable values with keeping position)
 
+Demo :
+
+```php
+$array=CustomCombine([ ['x','y'] , ['x','y'] , ['x','y'] ]);
+print_r($array);
+```
+
+```
+Array
+(
+    [0] => Array
+        (
+            [0] => x
+            [1] => x
+            [2] => x
+        )
+
+    [1] => Array
+        (
+            [0] => x
+            [1] => x
+            [2] => y
+        )
+
+    [2] => Array
+        (
+            [0] => x
+            [1] => y
+            [2] => x
+        )
+
+    [3] => Array
+        (
+            [0] => x
+            [1] => y
+            [2] => y
+        )
+
+    [4] => Array
+        (
+            [0] => y
+            [1] => x
+            [2] => x
+        )
+
+    [5] => Array
+        (
+            [0] => y
+            [1] => x
+            [2] => y
+        )
+
+    [6] => Array
+        (
+            [0] => y
+            [1] => y
+            [2] => x
+        )
+
+    [7] => Array
+        (
+            [0] => y
+            [1] => y
+            [2] => y
+        )
+
+)
+```
