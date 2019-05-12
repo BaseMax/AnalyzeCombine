@@ -2,6 +2,12 @@
 
 Analyze the combine with and without the repetition.
 
+# Initialise
+
+```php
+$combine=new AnalyzeCombine();
+```
+
 # Structure
 
 ## `Combine`
@@ -56,13 +62,11 @@ List of all of the probability of the combine from custom values. (Favorable val
 Demo :
 
 ```php
-$combine=new AnalyzeCombine();
 $count=$combine->NCustomCombine([ ['x','y'] , ['x','y'] , ['x','y'] ]);
 print $count; // 8
 ```
 
 ```php
-$combine=new AnalyzeCombine();
 $array=$combine->CustomCombine([ ['x','y'] , ['x','y'] , ['x','y'] ]);
 print_r($array);
 ```
