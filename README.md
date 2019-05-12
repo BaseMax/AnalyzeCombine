@@ -65,7 +65,7 @@ $array=CustomCombine([ ['x','y'] , ['x','y'] , ['x','y'] ]);
 print_r($array);
 ```
 
-```
+```php
 Array
 (
     [0] => Array
