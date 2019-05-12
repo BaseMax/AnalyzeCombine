@@ -42,3 +42,14 @@ array CombineRepeatLimit(array $input, int $limit);
 
 List of all of the probability of the combine with repetition with limitation.
 
+------------
+
+
+## `CustomCombine`
+
+```
+array CustomCombine(array $input);
+```
+
+List of all of the probability of the combine from custom values. (Favorable values with keeping position)
+
