@@ -6,7 +6,7 @@ Analyze the combine with and without the repetition.
 
 ## `Combine`
 
-```
+```php
 array Combine(array $input);
 ```
 
@@ -16,7 +16,7 @@ List of all of the probability of the combine without repetition.
 
 ## `CombineLimit`
 
-```
+```php
 array CombineLimit(array $input, int $limit);
 ```
 
@@ -26,7 +26,7 @@ List of all of the probability of the combine without repetition with limitation
 
 ### `CombineRepeat`
 
-```
+```php
 array CombineRepeat(array $input);
 ```
 
@@ -36,7 +36,7 @@ List of all of the probability of the combine with repetition.
 
 ### `CombineRepeatLimit`
 
-```
+```php
 array CombineRepeatLimit(array $input, int $limit);
 ```
 
@@ -47,7 +47,7 @@ List of all of the probability of the combine with repetition with limitation.
 
 ## `CustomCombine`
 
-```
+```php
 array CustomCombine(array $input);
 ```
 
