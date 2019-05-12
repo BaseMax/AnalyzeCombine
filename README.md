@@ -56,6 +56,11 @@ List of all of the probability of the combine from custom values. (Favorable val
 Demo :
 
 ```php
+$count=NCustomCombine([ ['x','y'] , ['x','y'] , ['x','y'] ]);
+print $count; // 8
+```
+
+```php
 $array=CustomCombine([ ['x','y'] , ['x','y'] , ['x','y'] ]);
 print_r($array);
 ```
